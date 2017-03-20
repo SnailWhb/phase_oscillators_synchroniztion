@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: kuta1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP35A5.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90"
+]
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP35A6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/kuta1.pdb" /debug /machine:I386 /out:"Debug/kuta1.exe" /pdbtype:sept 
+.\Debug\kuta1.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP35A6.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(1) : Error: Unrecognized token '=' skipped
+c ·½³ÌÎª£º    
+---^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(1) : Error: Unrecognized token 'L' skipped
+c ·½³ÌÎª£º    
+-----^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(1) : Error: Unrecognized token 'N' skipped
+c ·½³ÌÎª£º    
+------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(1) : Error: Unrecognized token '*' skipped
+c ·½³ÌÎª£º    
+-------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(1) : Error: Unrecognized token ':' skipped
+c ·½³ÌÎª£º    
+---------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(1) : Error: Syntax error, found '.' when expecting one of: <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT>
+c ·½³ÌÎª£º    
+----^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unrecognized token '&' skipped
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+----^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unrecognized token 'H' skipped
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+-----^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unrecognized token '&' skipped
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+---------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unrecognized token 'X' skipped
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+----------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unrecognized token '!' skipped
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+-------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unrecognized token 'R' skipped
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+--------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Invalid character_kind_parameter. No underscore
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+---------------------------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unrecognized token '&' skipped
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+--------------------------------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unrecognized token 'A' skipped
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+---------------------------------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Unterminated character constant
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+--------------------------------------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Invalid character_kind_parameter. No underscore
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+----------------------------------------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Syntax error, found IDENTIFIER 'D' when expecting one of: ( : % . = =>
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+---^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Syntax error, found '=' when expecting one of: ( * :: , <END-OF-STATEMENT> ; : ) + . - % (/ [ ] /) . ** / > ...
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+--------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Syntax error, found CHARACTER_CONSTANT ')sin(¦È(x,t)-¦È(x' when expecting one of: ( * :: , <END-OF-STATEMENT> ; : ) + . - % (/ [ ] /) . ** / > ...
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+--------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(2) : Error: Syntax error, found ')' when expecting one of: ( <IDENTIFIER> <CHAR_CON_KIND_PARAM> <CHAR_NAM_KIND_PARAM> <CHARACTER_CONSTANT> <INTEGER_CONSTANT> ...
+c  d¦È(x,t)/dt=¦Ø- ¡ÒG(x-x')sin(¦È(x,t)-¦È(x',t))+¦Á) dx' 
+----------------------------------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(3) : Error: Invalid character_kind_parameter. No underscore
+c  G(x-x')=(1+Acos(x-x')/(2¦Ð) 
+-----------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(3) : Error: Unrecognized token '&' skipped
+c  G(x-x')=(1+Acos(x-x')/(2¦Ð) 
+---------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(3) : Error: Missing mandatory separating blank
+c  G(x-x')=(1+Acos(x-x')/(2¦Ð) 
+----------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(3) : Error: Syntax error, found IDENTIFIER 'G' when expecting one of: ( : % . = =>
+c  G(x-x')=(1+Acos(x-x')/(2¦Ð) 
+---^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(3) : Error: Syntax error, found CHARACTER_CONSTANT ')=(1+Acos(x-x' when expecting one of: ( * :: , <END-OF-STATEMENT> ; : ) + . - % (/ [ ] /) . ** / > ...
+c  G(x-x')=(1+Acos(x-x')/(2¦Ð) 
+--------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(3) : Error: Syntax error, found IDENTIFIER '' when expecting one of: * :: , <END-OF-STATEMENT> ; : ) + . - (/ [ ] /) ** / > // .LT. < ...
+c  G(x-x')=(1+Acos(x-x')/(2¦Ð) 
+----------------------------^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(4) : Error: Unrecognized token '&' skipped
+c  ¦È:phase(n)
+---^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(4) : Error: Unrecognized token 'H' skipped
+c  ¦È:phase(n)
+----^
+C:\Users\Administrator\Desktop\Kuramoto\kuta1.f90(4) : Error: Syntax error, found IDENTIFIER 'PHASE' when expecting one of: DO FORALL SELECT SELECTCASE WHERE IF
+c  ¦È:phase(n)
+------^
+(6) : Severe: Too many errors, exiting
+Error executing df.exe.
+
+
+
+<h3>Results</h3>
+kuta1.exe - 30 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
